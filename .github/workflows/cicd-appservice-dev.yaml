@@ -1,6 +1,7 @@
 name: DEV - CICD (App Service)
 
-on: 
+on:
+  workflow_dispatch:
   push:
     branches:    
       - develop
