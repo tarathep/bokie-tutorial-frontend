@@ -97,6 +97,4 @@ jobs:
         repository: tarathep/bokie-tutorial-pipeline
         event-type: bokie-tutorial-cd-appservice-dev
         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
-
-
-# try to push 2
+        
