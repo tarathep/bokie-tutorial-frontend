@@ -98,7 +98,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     environment: 
-      name: env
+      name: dev
       url: https://github.com/[name]/[name]-tutorial-pipeline/actions/workflows/dev-tutorial-backend-deploy.yml
     needs: [unitest,analyze]
     steps:
