@@ -3,7 +3,7 @@
     <!-- Add Nav Bar boostap -->
     <nav class="navbar navbar-expand navbar-dark bg-dark">
       <!-- router link to index -->
-      <router-link to="/" class="navbar-brand"><div style=" margin-left: 40px;">BOKIE</div></router-link>
+      <router-link to="/" class="navbar-brand"><div style=" margin-left: 40px;">TARATHEP</div></router-link>
       <div class="navbar-nav mr-auto">
         <li class="nav-item">
           <!-- router link to /tutorials -->
