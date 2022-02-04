@@ -127,5 +127,5 @@ jobs:
       with:
         token: ${{ secrets.REPO_ACCESS_TOKEN }}
         repository: tarathep/bokie-tutorial-pipeline
-        event-type: bokie-tutorial-cd-appservice-dev
+        event-type: bokie-tutorial-frontend-cd-dev
         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'

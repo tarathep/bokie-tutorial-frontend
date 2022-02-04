@@ -13,7 +13,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     environment: 
-      name: dev
+      name: sit
       url: https://github.com/[name]/[name]-tutorial-pipeline/actions/workflows/dev-tutorial-backend-deploy.yml
 
     steps:
@@ -45,5 +45,5 @@ jobs:
       with:
         token: ${{ secrets.REPO_ACCESS_TOKEN }}
         repository: tarathep/bokie-tutorial-pipeline
-        event-type: bokie-tutorial-cd-appservice-dev
+        event-type: bokie-tutorial-frontend-cd-sit
         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
