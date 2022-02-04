@@ -1,4 +1,4 @@
-name: DEV - CICD (App Service)
+name: DEV - Build
 
 on:
   workflow_dispatch:
